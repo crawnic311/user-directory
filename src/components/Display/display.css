@@ -37,6 +37,10 @@
     
 }
 
+.Employee_Array_Text {
+    font-weight: 450;
+}
+
 .Employee_Info_List {
     list-style-type: none;
     padding: 0;
