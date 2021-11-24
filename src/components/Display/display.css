@@ -1,0 +1,65 @@
+.Display_Box {
+    background-color: white;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 80px;
+    height: 410px;
+    width: 1279px;
+}
+
+.Employee_Number {
+    display: block;
+    margin-left: 1200px;
+    font-size: 30px;
+    font-weight: 750;
+}
+
+.Employee_Name {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline #34a5da;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.Employee_Info_Box {
+    display: block;
+    margin-top: 0px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+    width: fit-content;
+}
+
+.Employee_List_Item {
+    margin: 10px;
+    margin-left: 0px;
+    font-weight: 750;
+    
+}
+
+.Employee_Info_List {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Fav_Movies_Box {
+    display: block;
+    margin-left: 70px;
+    width: fit-content;
+}
+
+.Fav_Movies_Title {
+    font-weight: 750;
+    font-size: 18px;
+}
+
+.Movies_List {
+    margin: 0;
+    padding-left: 60px;
+}
+
+.Movies_List_Item {
+    margin: 6px;
+    font-weight: 450;
+}

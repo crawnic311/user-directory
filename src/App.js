@@ -1,10 +1,11 @@
 import React, {Component} from 'react'
 
 //Saved for reference
-import './App.css';
+import "./App.css";
 
 //Components
-import Header from './components/Header'
+import Header from "./components/Header/Header"
+import Display from "./components/Display/display";
 
 class App extends Component {
   constructor() {
@@ -18,6 +19,7 @@ class App extends Component {
     return (
     <div className="App_Parent">
       <Header />
+      <Display />
 
     </div>
     )
