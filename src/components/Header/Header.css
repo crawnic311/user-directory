@@ -1,0 +1,27 @@
+.header {
+position: fixed;
+  background-color: #34a5da;
+  height: 6rem;
+  width: 100vw;
+}
+
+.home_link {
+  display: inline-flex;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: purple;
+}
