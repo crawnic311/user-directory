@@ -6,6 +6,7 @@ import "./App.css";
 //Components
 import Header from "./components/Header/Header"
 import Display from "./components/Display/display";
+import Nav from "./components/Nav/nav"
 
 class App extends Component {
   constructor() {
@@ -20,6 +21,7 @@ class App extends Component {
     <div className="App_Parent">
       <Header />
       <Display />
+      <Nav />
 
     </div>
     )

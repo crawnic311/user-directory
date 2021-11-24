@@ -1,0 +1,35 @@
+.Nav_Bar {
+    display: inline-block;
+    height: fit-content;
+    width: 1279px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.Nav_Buttons {
+    background: none;
+    color: white;
+    border: none;
+    font-weight: 750;
+    font-size: 18px;
+}
+
+.Blue_Buttons {
+    background: #34a5da;
+    color: white;
+    font-weight: 750;
+    border-radius: 12px;
+    border: 0px solid #34a5da;
+    padding: 8px 12px;
+    margin-left: 15px; 
+}
+
+.Edit_Button {
+    margin-left: 438px;
+}
+
+.Next_Button {
+    float: right;
+}
+
+
