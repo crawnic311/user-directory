@@ -14,7 +14,7 @@ class App extends Component {
     super();
 
     this.state = {
-      employees: [data[0]],
+      employees: [data[4]],
 
       /*  
       id: null,
@@ -29,10 +29,12 @@ class App extends Component {
       ]
     */
     };
+
+    this.nextEmployee = this.nextEmployee.bind( this )
   }
 
-  nextEmployee() {
-    //this.setState(employee: data[1])
+  nextEmployee(id) {
+    this.setState({employees: data[id]})
   }
 
   render() {
@@ -41,7 +43,8 @@ class App extends Component {
       <div className="App_Parent">
         <Header />
 
-        {employees.map((employee) => (
+        {
+          employees.map(employee => (
           <Display
             id={employee.id}
             name={employee.name}
@@ -53,7 +56,10 @@ class App extends Component {
           />
         ))}
 
-        <Nav />
+        <Nav 
+          id={employees.id}
+          nextEmployeeFn={this.nextEmployee}
+        />
       </div>
     );
   }
